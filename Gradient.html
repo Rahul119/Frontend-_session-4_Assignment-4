@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Gradients</title>
+	<style type="text/css">
+
+#rcorners1{
+    border-radius: 25px;
+    background: #00FFFF;
+    padding: 20px;
+    width: 180px;
+    height: 130px;
+    margin-left: 80px;
+    margin-top: 20px;
+    background: linear-gradient(to right, red, green);
+}
+#rcorners2{
+    border-radius: 25px;
+    background: #00FFFF;
+    padding: 20px;
+    width: 180px;
+    height: 130px;
+    margin-left: 350px;
+    margin-top: -170px;
+    background: radial-gradient(closest-side at 80% 50%, red, yellow, green);
+}
+#rcorners3{
+    border-radius: 25px;
+    background: #00FFFF;
+    padding: 20px;
+    width: 180px;
+    height: 130px;
+    margin-left: 630px;
+    margin-top: -170px;
+    background: radial-gradient(ellipse, red, yellow, green);
+}
+</style>
+</head>
+<body>
+	
+<div id="rcorners1"></div>	
+<div id="rcorners2"></div>
+<div id="rcorners3"></div>
+</body>
